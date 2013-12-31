@@ -2,7 +2,7 @@
 /*! 
     @file     RfidAccessControlWithEepromStorage.ino
     @author   webnology gmbh
-    @license  GPL v3 (see  ---> http://www.gnu.org/licenses/gpl-3.0.txt )
+    @license  GPL v2 or later (see  ---> http://www.gnu.org/licenses/gpl-2.0.txt )
 
     The sketch is an RFID (access) control system that stores RFIDs to EEPROM.
     All RFID cards stored in EEPROM will be granted access, all others will be denied access.	
