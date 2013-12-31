@@ -1,4 +1,4 @@
-RfidAccessControlWithEepromStorage
+Rfid Access Control With Eeprom Storage
 ==================================
 
-Arduino PN532 RFID access control with eeprom storage
+ArduinoUno and PN532 RFID breakout board access control with eeprom storage
