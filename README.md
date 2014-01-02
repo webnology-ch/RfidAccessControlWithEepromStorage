@@ -27,11 +27,11 @@ the wiring is explained at: http://learn.adafruit.com/adafruit-pn532-rfid-nfc/br
 -   Set the EEPROMSize constant to your Arduino's EEPROM size, do not exceed the maximum eeprom size address. You can       however shrink the eeprom size used for the UID storage by decreasing the EEPROMSize value and/or setting the           memBase to use for UID storage to a higher value than 0 (first address of eeprom).
 -   You need the baud rate to be 115200 because we need to print out the data and read from the card at the same time.
 
-	4.  Upload the Sketch and connect to the serial console.
-	5.  Read a Mifare Classic 4 byte card that you want to use as your MASTER card and replace the UID (int value) from the serial console output to the sketch: uid_master = 1344082563;
-	6.  Go to the setup() section and uncomment initializeEeprom(); 
-	7.  Upload the Sketch again and run the sketch one time (connect to serial) and check that the eeprom address values are all 0
-	8.  Comment again the initializeEeprom(); and upload it to your Arduino. Now you can use the MASTER card to store new
+	3.  Upload the Sketch and connect to the serial console.
+	4.  Read a Mifare Classic 4 byte card that you want to use as your MASTER card and replace the UID (int value) from the serial console output to the sketch: uid_master = 1344082563;
+	5.  Go to the setup() section and uncomment initializeEeprom(); 
+	6.  Upload the Sketch again and run the sketch one time (connect to serial) and check that the eeprom address values are all 0
+	7.  Comment again the initializeEeprom(); and upload it to your Arduino. Now you can use the MASTER card to store new
         RFIDs to the eeprom.
 
 Read different RFIDs and watsh the LEDs and/or the serial console output.
