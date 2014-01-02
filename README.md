@@ -58,7 +58,7 @@ put the EEPROM functions into a library
 Acknowledgements
 =======  
 webnology gmbh invests time and resources to provide open source software,
-please refer to our website to support us. http://www.webnology.ch
+please refer to our website to support us. http://www.webnology.ch/en/arduino-rfid-access-control-eeprom.html
 
 
 This is a sketch developed to work with the Adafruit PN532 NFC/RFID breakout board,
